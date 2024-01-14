@@ -1,0 +1,276 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(AbhayaLibre-Medium.ttf);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #bccfe4;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 2px 25px;
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    /* vertical-align: middle; */
+    /* position: left; */
+}
+
+.navbar-left {
+    /* float: right;     */
+    width: 50%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .navbar-right { */
+/* float: right; */
+/* width: 0%; */
+/* justify-content: center; */
+/* align-items: center; */
+
+
+.content {
+    height: 450px;
+    background-color: #dde6f0;
+    color: black;
+    padding: 40px 20px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+    text-align: center;
+}
+
+.d1 {
+    width: 50%;
+}
+
+.content_1 {
+    padding: 40px;
+    margin: 30px;
+
+
+}
+
+.main_title {
+    font-size: 35px;
+}
+
+button {
+    background-color: #9696e9;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    /* height: 20px; */
+    display: inline;
+    font-size: 14px;
+}
+
+.navbar-right a {
+    /* background-color: #262649; */
+    color: rgb(0, 0, 0);
+    /* border-radius: 2px; */
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_card {
+    display: flex;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: #9696e9; */
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.main_card img {
+    background-size: 10px;
+
+}
+
+.card__1 {
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    padding: 40px;
+    font-size: large;
+    font-weight: bold;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* width: 40%; */
+    /* height: 40px; */
+    /* align-items: center; */
+    background-color: #bccfe4;
+    text-align: center;
+}
+
+.card {
+    /* align-items: center; */
+    /* float: left; */
+    margin: 25px;
+    padding: 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* width: 30%; */
+    /* justify-content: center; */
+    /* background-color: #e5edf5d1; */
+    border-radius: 3px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    /* margin-bottom: 30px; */
+}
+
+.small_txt {
+    font-weight: smaller;
+    font-size: 12px;
+}
+
+.con {
+    display: flex;
+    height: 230px;
+    margin: 10px 50px 10px 50px;
+}
+
+.box {
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: black;
+    /* justify-content: center; */
+    /* text-align: center; */
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.box:nth-child(even) {
+    background-color: rgba(161, 176, 245, 0.292);
+}
+
+.box:nth-child(odd) {
+    background-color: #0051ff37;
+    color: black;
+}
+
+.footer {
+    /* display: block; */
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.footer>p {
+    font-family: myFirstFont;
+    /* font-size: 30px; */
+
+}
+
+.footer img {
+    padding: 5px;
+}
+
+.main_part_1 {
+
+    padding: 30px;
+    padding-top: 90px;
+}
+
+.part_1 {
+    /* margin: 2px; */
+}
+
+.last {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.last img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pramotation {
+    display: flex;
+    background-color: #e5edf5d1;
+}
+
+.p1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.pramotation img {
+    margin: 90px;
+}
+
+.p2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.p3 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 90px;
+}
+
+.foo {
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+}
+
+.progress {
+    /* height: 100%; */
+    /* position: absolute; */
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
